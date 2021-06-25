@@ -31,24 +31,33 @@ body{
 	margin-right: 50px;
 }
 
+section{
+	border-bottom: 1px solid lightgrey;
+	margin: 0 20px;
+}
+
 .sectionTitle {
 	float: left;
-	width: 19%;
+	width: 22.6%;
 	color: darkorange;
 	margin-left: 18px;
-	font-family: sans-serif;
+	font-family: Rokkitt;
+}
+
+#mainArea .sectionTitle h1{
+	font-size: 30px;
 }
 
 .sectionContent {
 	display: inline-block;
 	width: 71.5%;
-	height: 100%;
-	text-align: left;
 	font-family: Helvetica;
+	margin: 10px 0 0 0;
 }
 
 .sectionContent .keySkills {
 	column-count: 3;
+	padding: 0;
 }
 
 li{
@@ -57,8 +66,4 @@ li{
 
 .clear {
 	clear: both;
-}
-
-.clear1{
-	border-bottom: 1px solid lightgrey;
 }
