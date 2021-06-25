@@ -1,11 +1,24 @@
+body{
+	margin: 0 20% 0 20%;
+}
+
 .clear {
 	clear: both;
 }
 
-#headshot {
+#cv .mainDetails {
+	margin-top: 20px;
+}
+
+#cv .mainDetails #name {
+	margin-top: 8px;
+}
+
+#headshot img {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	border-radius: 100%;
 }
 
 #name {
@@ -14,14 +27,38 @@
 
 #contactDetails {
 	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
 }
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 19%;
+	color: darkorange;
+	margin-left: 18px;
+	font-family: sans-serif;
 }
 
 .sectionContent {
-	float: right;
-	width: 72.5%;
+	display: inline-block;
+	width: 71.5%;
+	height: 100%;
+	text-align: left;
+	font-family: Helvetica;
+}
+
+.sectionContent .keySkills {
+	column-count: 3;
+}
+
+.clear1{
+	border-bottom: 1px solid lightgrey;
+}
+
+#cv .mainDetails .clear + .clear1{
+	border-bottom: 2px solid orange;
+}
+
+li{
+	list-style-type: none;
 }
