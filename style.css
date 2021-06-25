@@ -2,16 +2,16 @@ body{
 	margin: 0 20% 0 20%;
 }
 
-.clear {
-	clear: both;
-}
-
 #cv .mainDetails {
 	margin-top: 20px;
 }
 
 #cv .mainDetails #name {
 	margin-top: 8px;
+}
+
+#cv .mainDetails .clear + .clear1{
+	border-bottom: 2px solid orange;
 }
 
 #headshot img {
@@ -51,14 +51,14 @@ body{
 	column-count: 3;
 }
 
-.clear1{
-	border-bottom: 1px solid lightgrey;
-}
-
-#cv .mainDetails .clear + .clear1{
-	border-bottom: 2px solid orange;
-}
-
 li{
 	list-style-type: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.clear1{
+	border-bottom: 1px solid lightgrey;
 }
