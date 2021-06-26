@@ -1,5 +1,7 @@
 body{
 	margin: 0 20% 0 20%;
+	background-color: #f3f3f3;
+	font-family:'Lato', sans-serif;
 }
 
 #cv .mainDetails {
@@ -7,11 +9,12 @@ body{
 }
 
 #cv .mainDetails #name {
-	margin-top: 8px;
+	margin-top: 1px;
 }
 
 #cv .mainDetails .clear + .clear1{
 	border-bottom: 2px solid orange;
+	margin-top: 30px;
 }
 
 #headshot img {
@@ -31,8 +34,13 @@ body{
 	margin-right: 50px;
 }
 
+#contactDetails ul li a {
+	color: #181818;
+	text-decoration: none;
+}
+
 section{
-	border-bottom: 1px solid lightgrey;
+	border-bottom: 1px solid #dedede;
 	margin: 0 20px;
 }
 
@@ -41,7 +49,11 @@ section{
 	width: 22.6%;
 	color: darkorange;
 	margin-left: 18px;
-	font-family: Rokkitt;
+	font-family: 'Rokkitt', sans-serif;
+}
+
+p {
+	color: #444444;
 }
 
 #mainArea .sectionTitle h1{
@@ -51,7 +63,6 @@ section{
 .sectionContent {
 	display: inline-block;
 	width: 71.5%;
-	font-family: Helvetica;
 	margin: 10px 0 0 0;
 }
 
