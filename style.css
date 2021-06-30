@@ -1,4 +1,4 @@
-body, html{
+html, body{
 	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
 }
 
@@ -60,7 +60,7 @@ section{
 	margin-left: 18px;
 }
 
-p {
+h2, p {
 	color: #444444;
 }
 
@@ -86,4 +86,17 @@ li{
 
 .clear {
 	clear: both;
+}
+
+p:not(.nega){
+	position: relative;
+	bottom: 20px;
+}
+
+.subDetails{
+	margin: 0 0 2px;
+} 
+
+p{
+	margin: 0;
 }
