@@ -1,7 +1,14 @@
+body, html{
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+}
+
 body{
 	margin: 0 20% 0 20%;
 	background-color: #f3f3f3;
-	font-family:'Lato', sans-serif;
+}
+
+h1, h2{
+	font-family: 'Rokkitt', 'Helvetica', 'Arial',  sans-serif;
 }
 
 #cv .mainDetails {
@@ -13,7 +20,7 @@ body{
 }
 
 #cv .mainDetails .clear + .clear1{
-	border-bottom: 2px solid orange;
+	border-bottom: 2px solid #cf8a05;
 	margin-top: 30px;
 }
 
@@ -26,6 +33,8 @@ body{
 
 #name {
 	float: left;
+	position: relative;
+	bottom: 7px;
 }
 
 #contactDetails {
@@ -46,10 +55,9 @@ section{
 
 .sectionTitle {
 	float: left;
-	width: 22.6%;
-	color: darkorange;
+	width: 27%;
+	color: #cf8a05;
 	margin-left: 18px;
-	font-family: 'Rokkitt', sans-serif;
 }
 
 p {
@@ -62,8 +70,9 @@ p {
 
 .sectionContent {
 	display: inline-block;
-	width: 71.5%;
-	margin: 10px 0 0 0;
+	width: 50.5%;
+	margin: 10px 0 0 20px;
+	color: #444444;
 }
 
 .sectionContent .keySkills {
